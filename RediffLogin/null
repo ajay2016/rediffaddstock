@@ -1,0 +1,1564 @@
+[1532591031.933][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "desiredCapabilities": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      },
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1532591031.937][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1532591031.939][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1532591031.950][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\ajay\AppData\Local\Temp\scoped_dir6956_25709\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\ajay\AppData\Local\Temp\scoped_dir6956_12995" data:,
+[1532591032.914][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1532591033.966][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9)",
+      "userDataDir": "C:\\Users\\ajay\\AppData\\Local\\Temp\\scoped_dir6956_12995"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "setWindowRect": true,
+   "~~~": "..."
+}
+[1532591033.978][INFO]: COMMAND MaximizeWindow {
+   "handle": "current",
+   "windowHandle": "current"
+}
+[1532591033.978][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1532591035.126][INFO]: RESPONSE MaximizeWindow
+[1532591035.142][INFO]: COMMAND SetTimeout {
+   "ms": 20000,
+   "type": "page load"
+}
+[1532591035.142][INFO]: RESPONSE SetTimeout
+[1532591035.159][INFO]: COMMAND SetTimeout {
+   "ms": 20000,
+   "type": "script"
+}
+[1532591035.159][INFO]: RESPONSE SetTimeout
+[1532591035.169][INFO]: COMMAND Navigate {
+   "url": "http://in.rediff.com/"
+}
+[1532591035.170][INFO]: Waiting for pending navigations...
+[1532591035.186][INFO]: Done waiting for pending navigations. Status: ok
+[1532591035.429][INFO]: Waiting for pending navigations...
+[1532591041.715][INFO]: Done waiting for pending navigations. Status: ok
+[1532591041.715][INFO]: RESPONSE Navigate
+[1532591041.721][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='homewrapper']/div[5]/a[3]/div/u"
+}
+[1532591041.721][INFO]: Waiting for pending navigations...
+[1532591041.722][INFO]: Done waiting for pending navigations. Status: ok
+[1532591041.743][INFO]: Waiting for pending navigations...
+[1532591041.744][INFO]: Done waiting for pending navigations. Status: ok
+[1532591041.744][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.2533851779679517-1"
+}
+[1532591041.757][INFO]: COMMAND ClickElement {
+   "id": "0.2533851779679517-1"
+}
+[1532591041.757][INFO]: Waiting for pending navigations...
+[1532591041.758][INFO]: Done waiting for pending navigations. Status: ok
+[1532591041.816][INFO]: Waiting for pending navigations...
+[1532591051.453][INFO]: Done waiting for pending navigations. Status: ok
+[1532591051.453][INFO]: RESPONSE ClickElement
+[1532591051.460][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='signin_info']/a[1]"
+}
+[1532591051.460][INFO]: Waiting for pending navigations...
+[1532591051.463][INFO]: Done waiting for pending navigations. Status: ok
+[1532591051.486][INFO]: Waiting for pending navigations...
+[1532591051.499][INFO]: Done waiting for pending navigations. Status: ok
+[1532591051.499][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7156658831822729-1"
+}
+[1532591051.503][INFO]: COMMAND ClickElement {
+   "id": "0.7156658831822729-1"
+}
+[1532591051.504][INFO]: Waiting for pending navigations...
+[1532591051.517][INFO]: Done waiting for pending navigations. Status: ok
+[1532591051.739][INFO]: Waiting for pending navigations...
+[1532591056.296][INFO]: Done waiting for pending navigations. Status: ok
+[1532591056.296][INFO]: RESPONSE ClickElement
+[1532591056.303][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "useremail"
+}
+[1532591056.303][INFO]: Waiting for pending navigations...
+[1532591056.304][INFO]: Done waiting for pending navigations. Status: ok
+[1532591056.317][INFO]: Waiting for pending navigations...
+[1532591056.320][INFO]: Done waiting for pending navigations. Status: ok
+[1532591056.320][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5453226556920412-1"
+}
+[1532591056.328][INFO]: COMMAND TypeElement {
+   "id": "0.5453226556920412-1",
+   "value": [ "ashishthakur1983" ]
+}
+[1532591056.328][INFO]: Waiting for pending navigations...
+[1532591056.329][INFO]: Done waiting for pending navigations. Status: ok
+[1532591056.434][INFO]: Waiting for pending navigations...
+[1532591056.435][INFO]: Done waiting for pending navigations. Status: ok
+[1532591056.435][INFO]: RESPONSE TypeElement
+[1532591056.442][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "emailsubmit"
+}
+[1532591056.442][INFO]: Waiting for pending navigations...
+[1532591056.445][INFO]: Done waiting for pending navigations. Status: ok
+[1532591056.460][INFO]: Waiting for pending navigations...
+[1532591056.463][INFO]: Done waiting for pending navigations. Status: ok
+[1532591056.463][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5453226556920412-2"
+}
+[1532591056.468][INFO]: COMMAND ClickElement {
+   "id": "0.5453226556920412-2"
+}
+[1532591056.468][INFO]: Waiting for pending navigations...
+[1532591056.469][INFO]: Done waiting for pending navigations. Status: ok
+[1532591056.537][INFO]: Waiting for pending navigations...
+[1532591056.538][INFO]: Done waiting for pending navigations. Status: ok
+[1532591056.538][INFO]: RESPONSE ClickElement
+[1532591056.548][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "userpass"
+}
+[1532591056.548][INFO]: Waiting for pending navigations...
+[1532591056.551][INFO]: Done waiting for pending navigations. Status: ok
+[1532591056.570][INFO]: Waiting for pending navigations...
+[1532591056.572][INFO]: Done waiting for pending navigations. Status: ok
+[1532591056.572][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5453226556920412-3"
+}
+[1532591056.577][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.5453226556920412-3"
+}
+[1532591056.578][INFO]: Waiting for pending navigations...
+[1532591056.580][INFO]: Done waiting for pending navigations. Status: ok
+[1532591056.594][INFO]: Waiting for pending navigations...
+[1532591056.598][INFO]: Done waiting for pending navigations. Status: ok
+[1532591056.598][INFO]: RESPONSE IsElementDisplayed false
+[1532591057.101][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.5453226556920412-3"
+}
+[1532591057.101][INFO]: Waiting for pending navigations...
+[1532591057.102][INFO]: Done waiting for pending navigations. Status: ok
+[1532591057.111][INFO]: Waiting for pending navigations...
+[1532591057.113][INFO]: Done waiting for pending navigations. Status: ok
+[1532591057.113][INFO]: RESPONSE IsElementDisplayed true
+[1532591057.116][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "userpass"
+}
+[1532591057.116][INFO]: Waiting for pending navigations...
+[1532591057.117][INFO]: Done waiting for pending navigations. Status: ok
+[1532591057.123][INFO]: Waiting for pending navigations...
+[1532591057.128][INFO]: Done waiting for pending navigations. Status: ok
+[1532591057.128][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5453226556920412-3"
+}
+[1532591057.132][INFO]: COMMAND TypeElement {
+   "id": "0.5453226556920412-3",
+   "value": [ "pass@1234" ]
+}
+[1532591057.132][INFO]: Waiting for pending navigations...
+[1532591057.133][INFO]: Done waiting for pending navigations. Status: ok
+[1532591057.253][INFO]: Waiting for pending navigations...
+[1532591057.254][INFO]: Done waiting for pending navigations. Status: ok
+[1532591057.254][INFO]: RESPONSE TypeElement
+[1532591057.261][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "userpass"
+}
+[1532591057.261][INFO]: Waiting for pending navigations...
+[1532591057.263][INFO]: Done waiting for pending navigations. Status: ok
+[1532591057.269][INFO]: Waiting for pending navigations...
+[1532591057.270][INFO]: Done waiting for pending navigations. Status: ok
+[1532591057.270][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5453226556920412-3"
+}
+[1532591057.278][INFO]: COMMAND TypeElement {
+   "id": "0.5453226556920412-3",
+   "value": [ "" ]
+}
+[1532591057.278][INFO]: Waiting for pending navigations...
+[1532591057.280][INFO]: Done waiting for pending navigations. Status: ok
+[1532591057.309][INFO]: Waiting for pending navigations...
+[1532591057.311][INFO]: Done waiting for pending navigations. Status: ok
+[1532591057.312][INFO]: RESPONSE TypeElement
+[1532591062.320][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "portfolioid"
+}
+[1532591062.320][INFO]: Waiting for pending navigations...
+[1532591067.186][INFO]: Done waiting for pending navigations. Status: ok
+[1532591067.202][INFO]: Waiting for pending navigations...
+[1532591067.203][INFO]: Done waiting for pending navigations. Status: ok
+[1532591067.203][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5869433167854394-1"
+}
+[1532591067.208][INFO]: COMMAND GetElementTagName {
+   "id": "0.5869433167854394-1"
+}
+[1532591067.208][INFO]: Waiting for pending navigations...
+[1532591067.209][INFO]: Done waiting for pending navigations. Status: ok
+[1532591067.215][INFO]: Waiting for pending navigations...
+[1532591067.217][INFO]: Done waiting for pending navigations. Status: ok
+[1532591067.217][INFO]: RESPONSE GetElementTagName "select"
+[1532591067.221][INFO]: COMMAND GetElementAttribute {
+   "id": "0.5869433167854394-1",
+   "name": "multiple"
+}
+[1532591067.221][INFO]: Waiting for pending navigations...
+[1532591067.222][INFO]: Done waiting for pending navigations. Status: ok
+[1532591067.234][INFO]: Waiting for pending navigations...
+[1532591067.236][INFO]: Done waiting for pending navigations. Status: ok
+[1532591067.237][INFO]: RESPONSE GetElementAttribute null
+[1532591067.243][INFO]: COMMAND FindChildElements {
+   "id": "0.5869433167854394-1",
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"Ashi_29\"]"
+}
+[1532591067.243][INFO]: Waiting for pending navigations...
+[1532591067.244][INFO]: Done waiting for pending navigations. Status: ok
+[1532591067.263][INFO]: Waiting for pending navigations...
+[1532591067.266][INFO]: Done waiting for pending navigations. Status: ok
+[1532591067.266][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.5869433167854394-2"
+} ]
+[1532591067.268][INFO]: COMMAND IsElementSelected {
+   "id": "0.5869433167854394-2"
+}
+[1532591067.268][INFO]: Waiting for pending navigations...
+[1532591067.269][INFO]: Done waiting for pending navigations. Status: ok
+[1532591067.283][INFO]: Waiting for pending navigations...
+[1532591067.285][INFO]: Done waiting for pending navigations. Status: ok
+[1532591067.285][INFO]: RESPONSE IsElementSelected false
+[1532591067.288][INFO]: COMMAND ClickElement {
+   "id": "0.5869433167854394-2"
+}
+[1532591067.288][INFO]: Waiting for pending navigations...
+[1532591067.289][INFO]: Done waiting for pending navigations. Status: ok
+[1532591067.327][INFO]: Waiting for pending navigations...
+[1532591073.734][INFO]: Done waiting for pending navigations. Status: ok
+[1532591073.734][INFO]: RESPONSE ClickElement
+[1532591073.747][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState;"
+}
+[1532591073.747][INFO]: Waiting for pending navigations...
+[1532591073.748][INFO]: Done waiting for pending navigations. Status: ok
+[1532591073.751][INFO]: Waiting for pending navigations...
+[1532591073.751][INFO]: Done waiting for pending navigations. Status: ok
+[1532591073.751][INFO]: RESPONSE ExecuteScript "complete"
+[1532591075.775][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.jQuery != undefined && jQuery.active == 0;"
+}
+[1532591075.776][INFO]: Waiting for pending navigations...
+[1532591075.777][INFO]: Done waiting for pending navigations. Status: ok
+[1532591075.781][INFO]: Waiting for pending navigations...
+[1532591075.782][INFO]: Done waiting for pending navigations. Status: ok
+[1532591075.783][INFO]: RESPONSE ExecuteScript true
+[1532591075.788][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "addStock"
+}
+[1532591075.788][INFO]: Waiting for pending navigations...
+[1532591075.789][INFO]: Done waiting for pending navigations. Status: ok
+[1532591075.805][INFO]: Waiting for pending navigations...
+[1532591075.806][INFO]: Done waiting for pending navigations. Status: ok
+[1532591075.806][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-1"
+}
+[1532591075.819][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-1"
+}
+[1532591075.819][INFO]: Waiting for pending navigations...
+[1532591075.820][INFO]: Done waiting for pending navigations. Status: ok
+[1532591075.896][INFO]: Waiting for pending navigations...
+[1532591075.898][INFO]: Done waiting for pending navigations. Status: ok
+[1532591075.899][INFO]: RESPONSE ClickElement
+[1532591075.910][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "addstockname"
+}
+[1532591075.910][INFO]: Waiting for pending navigations...
+[1532591075.911][INFO]: Done waiting for pending navigations. Status: ok
+[1532591075.924][INFO]: Waiting for pending navigations...
+[1532591075.925][INFO]: Done waiting for pending navigations. Status: ok
+[1532591075.926][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-2"
+}
+[1532591075.932][INFO]: COMMAND TypeElement {
+   "id": "0.18466457044090978-2",
+   "value": [ "Tata Steel Ltd" ]
+}
+[1532591075.932][INFO]: Waiting for pending navigations...
+[1532591075.933][INFO]: Done waiting for pending navigations. Status: ok
+[1532591076.111][INFO]: Waiting for pending navigations...
+[1532591076.113][INFO]: Done waiting for pending navigations. Status: ok
+[1532591076.113][INFO]: RESPONSE TypeElement
+[1532591081.123][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[text()='Tata Steel Ltd.']"
+}
+[1532591081.123][INFO]: Waiting for pending navigations...
+[1532591081.124][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.154][INFO]: Waiting for pending navigations...
+[1532591081.155][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.155][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-3"
+}
+[1532591081.159][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-3"
+}
+[1532591081.159][INFO]: Waiting for pending navigations...
+[1532591081.160][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.230][INFO]: Waiting for pending navigations...
+[1532591081.231][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.231][INFO]: RESPONSE ClickElement
+[1532591081.237][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "stockPurchaseDate"
+}
+[1532591081.237][INFO]: Waiting for pending navigations...
+[1532591081.238][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.254][INFO]: Waiting for pending navigations...
+[1532591081.255][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.255][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-4"
+}
+[1532591081.261][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-4"
+}
+[1532591081.261][INFO]: Waiting for pending navigations...
+[1532591081.262][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.321][INFO]: Waiting for pending navigations...
+[1532591081.326][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.326][INFO]: RESPONSE ClickElement
+[1532591081.332][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591081.332][INFO]: Waiting for pending navigations...
+[1532591081.334][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.352][INFO]: Waiting for pending navigations...
+[1532591081.352][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.352][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-5"
+}
+[1532591081.355][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-5"
+}
+[1532591081.355][INFO]: Waiting for pending navigations...
+[1532591081.357][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.373][INFO]: Waiting for pending navigations...
+[1532591081.373][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.374][INFO]: RESPONSE GetElementText "July 2018"
+[1532591081.390][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button"
+}
+[1532591081.390][INFO]: Waiting for pending navigations...
+[1532591081.391][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.407][INFO]: Waiting for pending navigations...
+[1532591081.408][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.408][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-6"
+}
+[1532591081.411][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-6"
+}
+[1532591081.411][INFO]: Waiting for pending navigations...
+[1532591081.412][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.482][INFO]: Waiting for pending navigations...
+[1532591081.484][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.484][INFO]: RESPONSE ClickElement
+[1532591081.489][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591081.489][INFO]: Waiting for pending navigations...
+[1532591081.490][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.498][INFO]: Waiting for pending navigations...
+[1532591081.499][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.499][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-7"
+}
+[1532591081.503][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-7"
+}
+[1532591081.503][INFO]: Waiting for pending navigations...
+[1532591081.504][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.521][INFO]: Waiting for pending navigations...
+[1532591081.522][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.522][INFO]: RESPONSE GetElementText "June 2018"
+[1532591081.526][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button"
+}
+[1532591081.526][INFO]: Waiting for pending navigations...
+[1532591081.527][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.534][INFO]: Waiting for pending navigations...
+[1532591081.535][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.535][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-8"
+}
+[1532591081.540][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-8"
+}
+[1532591081.540][INFO]: Waiting for pending navigations...
+[1532591081.541][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.588][INFO]: Waiting for pending navigations...
+[1532591081.589][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.589][INFO]: RESPONSE ClickElement
+[1532591081.592][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591081.592][INFO]: Waiting for pending navigations...
+[1532591081.594][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.601][INFO]: Waiting for pending navigations...
+[1532591081.602][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.602][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-9"
+}
+[1532591081.604][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-9"
+}
+[1532591081.605][INFO]: Waiting for pending navigations...
+[1532591081.605][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.621][INFO]: Waiting for pending navigations...
+[1532591081.625][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.625][INFO]: RESPONSE GetElementText "May 2018"
+[1532591081.628][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button"
+}
+[1532591081.628][INFO]: Waiting for pending navigations...
+[1532591081.629][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.642][INFO]: Waiting for pending navigations...
+[1532591081.643][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.643][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-10"
+}
+[1532591081.649][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-10"
+}
+[1532591081.649][INFO]: Waiting for pending navigations...
+[1532591081.652][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.700][INFO]: Waiting for pending navigations...
+[1532591081.701][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.701][INFO]: RESPONSE ClickElement
+[1532591081.705][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591081.705][INFO]: Waiting for pending navigations...
+[1532591081.706][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.713][INFO]: Waiting for pending navigations...
+[1532591081.714][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.714][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-11"
+}
+[1532591081.716][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-11"
+}
+[1532591081.716][INFO]: Waiting for pending navigations...
+[1532591081.717][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.733][INFO]: Waiting for pending navigations...
+[1532591081.734][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.734][INFO]: RESPONSE GetElementText "April 2018"
+[1532591081.737][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button"
+}
+[1532591081.737][INFO]: Waiting for pending navigations...
+[1532591081.738][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.745][INFO]: Waiting for pending navigations...
+[1532591081.746][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.746][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-12"
+}
+[1532591081.751][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-12"
+}
+[1532591081.751][INFO]: Waiting for pending navigations...
+[1532591081.752][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.796][INFO]: Waiting for pending navigations...
+[1532591081.797][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.797][INFO]: RESPONSE ClickElement
+[1532591081.801][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591081.801][INFO]: Waiting for pending navigations...
+[1532591081.802][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.808][INFO]: Waiting for pending navigations...
+[1532591081.812][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.812][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-13"
+}
+[1532591081.817][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-13"
+}
+[1532591081.817][INFO]: Waiting for pending navigations...
+[1532591081.818][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.838][INFO]: Waiting for pending navigations...
+[1532591081.838][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.838][INFO]: RESPONSE GetElementText "March 2018"
+[1532591081.858][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button"
+}
+[1532591081.858][INFO]: Waiting for pending navigations...
+[1532591081.859][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.866][INFO]: Waiting for pending navigations...
+[1532591081.866][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.866][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-14"
+}
+[1532591081.873][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-14"
+}
+[1532591081.874][INFO]: Waiting for pending navigations...
+[1532591081.874][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.919][INFO]: Waiting for pending navigations...
+[1532591081.920][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.920][INFO]: RESPONSE ClickElement
+[1532591081.923][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591081.923][INFO]: Waiting for pending navigations...
+[1532591081.924][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.931][INFO]: Waiting for pending navigations...
+[1532591081.932][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.932][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-15"
+}
+[1532591081.935][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-15"
+}
+[1532591081.935][INFO]: Waiting for pending navigations...
+[1532591081.936][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.952][INFO]: Waiting for pending navigations...
+[1532591081.954][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.954][INFO]: RESPONSE GetElementText "February 2018"
+[1532591081.973][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button"
+}
+[1532591081.973][INFO]: Waiting for pending navigations...
+[1532591081.974][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.981][INFO]: Waiting for pending navigations...
+[1532591081.982][INFO]: Done waiting for pending navigations. Status: ok
+[1532591081.982][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-16"
+}
+[1532591081.989][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-16"
+}
+[1532591081.989][INFO]: Waiting for pending navigations...
+[1532591081.990][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.048][INFO]: Waiting for pending navigations...
+[1532591082.048][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.049][INFO]: RESPONSE ClickElement
+[1532591082.051][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591082.051][INFO]: Waiting for pending navigations...
+[1532591082.052][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.058][INFO]: Waiting for pending navigations...
+[1532591082.062][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.062][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-17"
+}
+[1532591082.066][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-17"
+}
+[1532591082.066][INFO]: Waiting for pending navigations...
+[1532591082.067][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.084][INFO]: Waiting for pending navigations...
+[1532591082.085][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.085][INFO]: RESPONSE GetElementText "January 2018"
+[1532591082.087][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button"
+}
+[1532591082.087][INFO]: Waiting for pending navigations...
+[1532591082.088][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.095][INFO]: Waiting for pending navigations...
+[1532591082.096][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.096][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-18"
+}
+[1532591082.106][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-18"
+}
+[1532591082.106][INFO]: Waiting for pending navigations...
+[1532591082.107][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.151][INFO]: Waiting for pending navigations...
+[1532591082.152][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.152][INFO]: RESPONSE ClickElement
+[1532591082.156][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591082.157][INFO]: Waiting for pending navigations...
+[1532591082.157][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.165][INFO]: Waiting for pending navigations...
+[1532591082.165][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.165][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-19"
+}
+[1532591082.169][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-19"
+}
+[1532591082.169][INFO]: Waiting for pending navigations...
+[1532591082.170][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.186][INFO]: Waiting for pending navigations...
+[1532591082.187][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.187][INFO]: RESPONSE GetElementText "December 2017"
+[1532591082.194][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button"
+}
+[1532591082.194][INFO]: Waiting for pending navigations...
+[1532591082.195][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.202][INFO]: Waiting for pending navigations...
+[1532591082.202][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.202][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-20"
+}
+[1532591082.222][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-20"
+}
+[1532591082.222][INFO]: Waiting for pending navigations...
+[1532591082.223][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.268][INFO]: Waiting for pending navigations...
+[1532591082.269][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.269][INFO]: RESPONSE ClickElement
+[1532591082.271][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591082.271][INFO]: Waiting for pending navigations...
+[1532591082.272][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.278][INFO]: Waiting for pending navigations...
+[1532591082.280][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.280][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-21"
+}
+[1532591082.283][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-21"
+}
+[1532591082.283][INFO]: Waiting for pending navigations...
+[1532591082.284][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.300][INFO]: Waiting for pending navigations...
+[1532591082.301][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.301][INFO]: RESPONSE GetElementText "November 2017"
+[1532591082.304][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button"
+}
+[1532591082.304][INFO]: Waiting for pending navigations...
+[1532591082.305][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.313][INFO]: Waiting for pending navigations...
+[1532591082.313][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.313][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-22"
+}
+[1532591082.324][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-22"
+}
+[1532591082.324][INFO]: Waiting for pending navigations...
+[1532591082.325][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.372][INFO]: Waiting for pending navigations...
+[1532591082.373][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.373][INFO]: RESPONSE ClickElement
+[1532591082.378][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591082.378][INFO]: Waiting for pending navigations...
+[1532591082.379][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.385][INFO]: Waiting for pending navigations...
+[1532591082.386][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.386][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-23"
+}
+[1532591082.388][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-23"
+}
+[1532591082.388][INFO]: Waiting for pending navigations...
+[1532591082.389][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.405][INFO]: Waiting for pending navigations...
+[1532591082.406][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.406][INFO]: RESPONSE GetElementText "October 2017"
+[1532591082.424][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button"
+}
+[1532591082.424][INFO]: Waiting for pending navigations...
+[1532591082.425][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.432][INFO]: Waiting for pending navigations...
+[1532591082.435][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.435][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-24"
+}
+[1532591082.440][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-24"
+}
+[1532591082.440][INFO]: Waiting for pending navigations...
+[1532591082.440][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.487][INFO]: Waiting for pending navigations...
+[1532591082.487][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.487][INFO]: RESPONSE ClickElement
+[1532591082.491][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591082.491][INFO]: Waiting for pending navigations...
+[1532591082.492][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.499][INFO]: Waiting for pending navigations...
+[1532591082.500][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.500][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-25"
+}
+[1532591082.502][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-25"
+}
+[1532591082.502][INFO]: Waiting for pending navigations...
+[1532591082.503][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.519][INFO]: Waiting for pending navigations...
+[1532591082.520][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.520][INFO]: RESPONSE GetElementText "September 2017"
+[1532591082.526][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button"
+}
+[1532591082.526][INFO]: Waiting for pending navigations...
+[1532591082.527][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.534][INFO]: Waiting for pending navigations...
+[1532591082.535][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.535][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-26"
+}
+[1532591082.538][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-26"
+}
+[1532591082.538][INFO]: Waiting for pending navigations...
+[1532591082.540][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.587][INFO]: Waiting for pending navigations...
+[1532591082.588][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.588][INFO]: RESPONSE ClickElement
+[1532591082.597][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591082.597][INFO]: Waiting for pending navigations...
+[1532591082.599][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.605][INFO]: Waiting for pending navigations...
+[1532591082.605][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.605][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-27"
+}
+[1532591082.609][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-27"
+}
+[1532591082.610][INFO]: Waiting for pending navigations...
+[1532591082.610][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.626][INFO]: Waiting for pending navigations...
+[1532591082.626][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.627][INFO]: RESPONSE GetElementText "August 2017"
+[1532591082.655][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button"
+}
+[1532591082.655][INFO]: Waiting for pending navigations...
+[1532591082.657][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.664][INFO]: Waiting for pending navigations...
+[1532591082.665][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.665][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-28"
+}
+[1532591082.670][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-28"
+}
+[1532591082.670][INFO]: Waiting for pending navigations...
+[1532591082.675][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.720][INFO]: Waiting for pending navigations...
+[1532591082.721][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.721][INFO]: RESPONSE ClickElement
+[1532591082.725][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591082.725][INFO]: Waiting for pending navigations...
+[1532591082.727][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.734][INFO]: Waiting for pending navigations...
+[1532591082.735][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.735][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-29"
+}
+[1532591082.737][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-29"
+}
+[1532591082.737][INFO]: Waiting for pending navigations...
+[1532591082.738][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.754][INFO]: Waiting for pending navigations...
+[1532591082.754][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.754][INFO]: RESPONSE GetElementText "July 2017"
+[1532591082.757][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button"
+}
+[1532591082.757][INFO]: Waiting for pending navigations...
+[1532591082.758][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.764][INFO]: Waiting for pending navigations...
+[1532591082.775][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.775][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-30"
+}
+[1532591082.793][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-30"
+}
+[1532591082.793][INFO]: Waiting for pending navigations...
+[1532591082.794][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.840][INFO]: Waiting for pending navigations...
+[1532591082.843][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.843][INFO]: RESPONSE ClickElement
+[1532591082.847][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591082.848][INFO]: Waiting for pending navigations...
+[1532591082.849][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.855][INFO]: Waiting for pending navigations...
+[1532591082.856][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.856][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-31"
+}
+[1532591082.864][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-31"
+}
+[1532591082.864][INFO]: Waiting for pending navigations...
+[1532591082.865][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.881][INFO]: Waiting for pending navigations...
+[1532591082.882][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.882][INFO]: RESPONSE GetElementText "June 2017"
+[1532591082.890][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button"
+}
+[1532591082.890][INFO]: Waiting for pending navigations...
+[1532591082.891][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.898][INFO]: Waiting for pending navigations...
+[1532591082.899][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.899][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-32"
+}
+[1532591082.905][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-32"
+}
+[1532591082.905][INFO]: Waiting for pending navigations...
+[1532591082.906][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.984][INFO]: Waiting for pending navigations...
+[1532591082.985][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.985][INFO]: RESPONSE ClickElement
+[1532591082.989][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591082.989][INFO]: Waiting for pending navigations...
+[1532591082.990][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.997][INFO]: Waiting for pending navigations...
+[1532591082.998][INFO]: Done waiting for pending navigations. Status: ok
+[1532591082.998][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-33"
+}
+[1532591083.001][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-33"
+}
+[1532591083.001][INFO]: Waiting for pending navigations...
+[1532591083.002][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.018][INFO]: Waiting for pending navigations...
+[1532591083.021][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.022][INFO]: RESPONSE GetElementText "May 2017"
+[1532591083.040][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button"
+}
+[1532591083.041][INFO]: Waiting for pending navigations...
+[1532591083.041][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.048][INFO]: Waiting for pending navigations...
+[1532591083.048][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.048][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-34"
+}
+[1532591083.057][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-34"
+}
+[1532591083.057][INFO]: Waiting for pending navigations...
+[1532591083.058][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.102][INFO]: Waiting for pending navigations...
+[1532591083.104][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.104][INFO]: RESPONSE ClickElement
+[1532591083.108][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": ".dpTitleText"
+}
+[1532591083.108][INFO]: Waiting for pending navigations...
+[1532591083.110][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.118][INFO]: Waiting for pending navigations...
+[1532591083.119][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.119][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-35"
+}
+[1532591083.123][INFO]: COMMAND GetElementText {
+   "id": "0.18466457044090978-35"
+}
+[1532591083.124][INFO]: Waiting for pending navigations...
+[1532591083.125][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.142][INFO]: Waiting for pending navigations...
+[1532591083.142][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.142][INFO]: RESPONSE GetElementText "April 2017"
+[1532591083.157][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//td[text()='12']"
+}
+[1532591083.157][INFO]: Waiting for pending navigations...
+[1532591083.158][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.170][INFO]: Waiting for pending navigations...
+[1532591083.171][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.171][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-36"
+}
+[1532591083.188][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-36"
+}
+[1532591083.188][INFO]: Waiting for pending navigations...
+[1532591083.189][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.241][INFO]: Waiting for pending navigations...
+[1532591083.244][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.244][INFO]: RESPONSE ClickElement
+[1532591083.251][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "addstockqty"
+}
+[1532591083.251][INFO]: Waiting for pending navigations...
+[1532591083.252][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.265][INFO]: Waiting for pending navigations...
+[1532591083.266][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.266][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-37"
+}
+[1532591083.270][INFO]: COMMAND TypeElement {
+   "id": "0.18466457044090978-37",
+   "value": [ "100" ]
+}
+[1532591083.270][INFO]: Waiting for pending navigations...
+[1532591083.271][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.320][INFO]: Waiting for pending navigations...
+[1532591083.321][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.321][INFO]: RESPONSE TypeElement
+[1532591083.328][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "addstockprice"
+}
+[1532591083.328][INFO]: Waiting for pending navigations...
+[1532591083.330][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.343][INFO]: Waiting for pending navigations...
+[1532591083.343][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.343][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-38"
+}
+[1532591083.347][INFO]: COMMAND TypeElement {
+   "id": "0.18466457044090978-38",
+   "value": [ "500" ]
+}
+[1532591083.347][INFO]: Waiting for pending navigations...
+[1532591083.348][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.396][INFO]: Waiting for pending navigations...
+[1532591083.397][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.397][INFO]: RESPONSE TypeElement
+[1532591083.402][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "addStockButton"
+}
+[1532591083.402][INFO]: Waiting for pending navigations...
+[1532591083.406][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.421][INFO]: Waiting for pending navigations...
+[1532591083.421][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.421][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.18466457044090978-39"
+}
+[1532591083.430][INFO]: COMMAND ClickElement {
+   "id": "0.18466457044090978-39"
+}
+[1532591083.430][INFO]: Waiting for pending navigations...
+[1532591083.431][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.482][INFO]: Waiting for pending navigations...
+[1532591083.486][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.486][INFO]: RESPONSE ClickElement
+[1532591083.493][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState;"
+}
+[1532591083.493][INFO]: Waiting for pending navigations...
+[1532591083.494][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.496][INFO]: Waiting for pending navigations...
+[1532591083.497][INFO]: Done waiting for pending navigations. Status: ok
+[1532591083.497][INFO]: RESPONSE ExecuteScript "complete"
+[1532591085.503][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.jQuery != undefined && jQuery.active == 0;"
+}
+[1532591085.503][INFO]: Waiting for pending navigations...
+[1532591088.717][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.725][INFO]: Waiting for pending navigations...
+[1532591088.730][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.730][INFO]: RESPONSE ExecuteScript true
+[1532591088.734][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table[@id='stock']/tbody/tr"
+}
+[1532591088.734][INFO]: Waiting for pending navigations...
+[1532591088.736][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.755][INFO]: Waiting for pending navigations...
+[1532591088.762][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.762][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.9776775155153155-1"
+}, {
+   "ELEMENT": "0.9776775155153155-2"
+}, {
+   "ELEMENT": "0.9776775155153155-3"
+} ]
+[1532591088.767][INFO]: COMMAND FindChildElements {
+   "id": "0.9776775155153155-1",
+   "using": "tag name",
+   "value": "td"
+}
+[1532591088.767][INFO]: Waiting for pending navigations...
+[1532591088.768][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.782][INFO]: Waiting for pending navigations...
+[1532591088.786][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.786][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.9776775155153155-4"
+}, {
+   "ELEMENT": "0.9776775155153155-5"
+}, {
+   "ELEMENT": "0.9776775155153155-6"
+}, {
+   "ELEMENT": "0.9776775155153155-7"
+}, {
+   "ELEMENT": "0.9776775155153155-8"
+}, {
+   "ELEMENT": "0.9776775155153155-9"
+}, {
+   "ELEMENT": "0.9776775155153155-10"
+}, {
+   "ELEMENT": "0.9776775155153155-11"
+}, {
+   "ELEMENT": "0.9776775155153155-12"
+}, {
+   "ELEMENT": "0.9776775155153155-13"
+} ]
+[1532591088.788][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-4"
+}
+[1532591088.788][INFO]: Waiting for pending navigations...
+[1532591088.789][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.812][INFO]: Waiting for pending navigations...
+[1532591088.815][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.815][INFO]: RESPONSE GetElementText ""
+[1532591088.817][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-5"
+}
+[1532591088.817][INFO]: Waiting for pending navigations...
+[1532591088.817][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.848][INFO]: Waiting for pending navigations...
+[1532591088.853][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.853][INFO]: RESPONSE GetElementText "Reliance Inds.\ni"
+[1532591088.862][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-5"
+}
+[1532591088.862][INFO]: Waiting for pending navigations...
+[1532591088.863][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.881][INFO]: Waiting for pending navigations...
+[1532591088.883][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.884][INFO]: RESPONSE GetElementText "Reliance Inds.\ni"
+[1532591088.887][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-6"
+}
+[1532591088.887][INFO]: Waiting for pending navigations...
+[1532591088.888][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.912][INFO]: Waiting for pending navigations...
+[1532591088.913][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.913][INFO]: RESPONSE GetElementText "BSE"
+[1532591088.915][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-6"
+}
+[1532591088.915][INFO]: Waiting for pending navigations...
+[1532591088.916][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.927][INFO]: Waiting for pending navigations...
+[1532591088.928][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.928][INFO]: RESPONSE GetElementText "BSE"
+[1532591088.930][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-7"
+}
+[1532591088.930][INFO]: Waiting for pending navigations...
+[1532591088.931][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.949][INFO]: Waiting for pending navigations...
+[1532591088.952][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.952][INFO]: RESPONSE GetElementText "200"
+[1532591088.955][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-7"
+}
+[1532591088.955][INFO]: Waiting for pending navigations...
+[1532591088.957][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.967][INFO]: Waiting for pending navigations...
+[1532591088.968][INFO]: Done waiting for pending navigations. Status: ok
+[1532591088.968][INFO]: RESPONSE GetElementText "200"
+[1532591088.970][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-8"
+}
+[1532591088.970][INFO]: Waiting for pending navigations...
+[1532591088.971][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.000][INFO]: Waiting for pending navigations...
+[1532591089.002][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.002][INFO]: RESPONSE GetElementText "500.00"
+[1532591089.003][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-8"
+}
+[1532591089.004][INFO]: Waiting for pending navigations...
+[1532591089.004][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.014][INFO]: Waiting for pending navigations...
+[1532591089.016][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.017][INFO]: RESPONSE GetElementText "500.00"
+[1532591089.019][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-9"
+}
+[1532591089.020][INFO]: Waiting for pending navigations...
+[1532591089.020][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.039][INFO]: Waiting for pending navigations...
+[1532591089.044][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.044][INFO]: RESPONSE GetElementText "100,000.00"
+[1532591089.048][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-9"
+}
+[1532591089.048][INFO]: Waiting for pending navigations...
+[1532591089.049][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.060][INFO]: Waiting for pending navigations...
+[1532591089.062][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.062][INFO]: RESPONSE GetElementText "100,000.00"
+[1532591089.064][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-10"
+}
+[1532591089.064][INFO]: Waiting for pending navigations...
+[1532591089.065][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.083][INFO]: Waiting for pending navigations...
+[1532591089.086][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.086][INFO]: RESPONSE GetElementText "1,117.00 (2.95)"
+[1532591089.088][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-10"
+}
+[1532591089.088][INFO]: Waiting for pending navigations...
+[1532591089.089][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.101][INFO]: Waiting for pending navigations...
+[1532591089.101][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.101][INFO]: RESPONSE GetElementText "1,117.00 (2.95)"
+[1532591089.103][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-11"
+}
+[1532591089.103][INFO]: Waiting for pending navigations...
+[1532591089.104][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.128][INFO]: Waiting for pending navigations...
+[1532591089.130][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.130][INFO]: RESPONSE GetElementText "223,400.00"
+[1532591089.132][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-11"
+}
+[1532591089.132][INFO]: Waiting for pending navigations...
+[1532591089.133][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.144][INFO]: Waiting for pending navigations...
+[1532591089.146][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.146][INFO]: RESPONSE GetElementText "223,400.00"
+[1532591089.148][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-12"
+}
+[1532591089.148][INFO]: Waiting for pending navigations...
+[1532591089.149][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.169][INFO]: Waiting for pending navigations...
+[1532591089.171][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.171][INFO]: RESPONSE GetElementText "123,400.00"
+[1532591089.177][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-12"
+}
+[1532591089.177][INFO]: Waiting for pending navigations...
+[1532591089.179][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.187][INFO]: Waiting for pending navigations...
+[1532591089.188][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.188][INFO]: RESPONSE GetElementText "123,400.00"
+[1532591089.189][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-13"
+}
+[1532591089.190][INFO]: Waiting for pending navigations...
+[1532591089.194][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.216][INFO]: Waiting for pending navigations...
+[1532591089.218][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.219][INFO]: RESPONSE GetElementText "123.40"
+[1532591089.223][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-13"
+}
+[1532591089.223][INFO]: Waiting for pending navigations...
+[1532591089.226][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.233][INFO]: Waiting for pending navigations...
+[1532591089.234][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.234][INFO]: RESPONSE GetElementText "123.40"
+[1532591089.239][INFO]: COMMAND FindChildElements {
+   "id": "0.9776775155153155-2",
+   "using": "tag name",
+   "value": "td"
+}
+[1532591089.239][INFO]: Waiting for pending navigations...
+[1532591089.243][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.255][INFO]: Waiting for pending navigations...
+[1532591089.256][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.256][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.9776775155153155-14"
+}, {
+   "ELEMENT": "0.9776775155153155-15"
+}, {
+   "ELEMENT": "0.9776775155153155-16"
+}, {
+   "ELEMENT": "0.9776775155153155-17"
+}, {
+   "ELEMENT": "0.9776775155153155-18"
+}, {
+   "ELEMENT": "0.9776775155153155-19"
+}, {
+   "ELEMENT": "0.9776775155153155-20"
+}, {
+   "ELEMENT": "0.9776775155153155-21"
+}, {
+   "ELEMENT": "0.9776775155153155-22"
+}, {
+   "ELEMENT": "0.9776775155153155-23"
+} ]
+[1532591089.262][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-14"
+}
+[1532591089.262][INFO]: Waiting for pending navigations...
+[1532591089.263][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.280][INFO]: Waiting for pending navigations...
+[1532591089.283][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.283][INFO]: RESPONSE GetElementText ""
+[1532591089.285][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-15"
+}
+[1532591089.285][INFO]: Waiting for pending navigations...
+[1532591089.286][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.311][INFO]: Waiting for pending navigations...
+[1532591089.315][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.315][INFO]: RESPONSE GetElementText "SBI"
+[1532591089.317][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-15"
+}
+[1532591089.317][INFO]: Waiting for pending navigations...
+[1532591089.318][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.332][INFO]: Waiting for pending navigations...
+[1532591089.335][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.335][INFO]: RESPONSE GetElementText "SBI"
+[1532591089.337][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-16"
+}
+[1532591089.337][INFO]: Waiting for pending navigations...
+[1532591089.337][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.360][INFO]: Waiting for pending navigations...
+[1532591089.363][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.363][INFO]: RESPONSE GetElementText "BSE"
+[1532591089.365][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-16"
+}
+[1532591089.365][INFO]: Waiting for pending navigations...
+[1532591089.365][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.376][INFO]: Waiting for pending navigations...
+[1532591089.377][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.378][INFO]: RESPONSE GetElementText "BSE"
+[1532591089.379][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-17"
+}
+[1532591089.379][INFO]: Waiting for pending navigations...
+[1532591089.380][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.398][INFO]: Waiting for pending navigations...
+[1532591089.401][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.401][INFO]: RESPONSE GetElementText "1000"
+[1532591089.403][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-17"
+}
+[1532591089.403][INFO]: Waiting for pending navigations...
+[1532591089.403][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.412][INFO]: Waiting for pending navigations...
+[1532591089.414][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.415][INFO]: RESPONSE GetElementText "1000"
+[1532591089.416][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-18"
+}
+[1532591089.417][INFO]: Waiting for pending navigations...
+[1532591089.417][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.436][INFO]: Waiting for pending navigations...
+[1532591089.438][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.438][INFO]: RESPONSE GetElementText "500.00"
+[1532591089.443][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-18"
+}
+[1532591089.443][INFO]: Waiting for pending navigations...
+[1532591089.450][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.459][INFO]: Waiting for pending navigations...
+[1532591089.461][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.461][INFO]: RESPONSE GetElementText "500.00"
+[1532591089.465][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-19"
+}
+[1532591089.465][INFO]: Waiting for pending navigations...
+[1532591089.466][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.484][INFO]: Waiting for pending navigations...
+[1532591089.486][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.486][INFO]: RESPONSE GetElementText "500,000.00"
+[1532591089.488][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-19"
+}
+[1532591089.488][INFO]: Waiting for pending navigations...
+[1532591089.489][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.499][INFO]: Waiting for pending navigations...
+[1532591089.500][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.500][INFO]: RESPONSE GetElementText "500,000.00"
+[1532591089.502][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-20"
+}
+[1532591089.502][INFO]: Waiting for pending navigations...
+[1532591089.502][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.525][INFO]: Waiting for pending navigations...
+[1532591089.530][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.530][INFO]: RESPONSE GetElementText "282.60 (11.15)"
+[1532591089.532][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-20"
+}
+[1532591089.532][INFO]: Waiting for pending navigations...
+[1532591089.533][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.543][INFO]: Waiting for pending navigations...
+[1532591089.546][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.546][INFO]: RESPONSE GetElementText "282.60 (11.15)"
+[1532591089.548][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-21"
+}
+[1532591089.548][INFO]: Waiting for pending navigations...
+[1532591089.548][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.567][INFO]: Waiting for pending navigations...
+[1532591089.570][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.570][INFO]: RESPONSE GetElementText "282,600.00"
+[1532591089.572][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-21"
+}
+[1532591089.572][INFO]: Waiting for pending navigations...
+[1532591089.576][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.585][INFO]: Waiting for pending navigations...
+[1532591089.585][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.585][INFO]: RESPONSE GetElementText "282,600.00"
+[1532591089.587][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-22"
+}
+[1532591089.587][INFO]: Waiting for pending navigations...
+[1532591089.588][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.611][INFO]: Waiting for pending navigations...
+[1532591089.626][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.626][INFO]: RESPONSE GetElementText "-217,400.00"
+[1532591089.630][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-22"
+}
+[1532591089.630][INFO]: Waiting for pending navigations...
+[1532591089.636][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.646][INFO]: Waiting for pending navigations...
+[1532591089.650][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.650][INFO]: RESPONSE GetElementText "-217,400.00"
+[1532591089.652][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-23"
+}
+[1532591089.652][INFO]: Waiting for pending navigations...
+[1532591089.653][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.671][INFO]: Waiting for pending navigations...
+[1532591089.678][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.678][INFO]: RESPONSE GetElementText "-43.48"
+[1532591089.680][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-23"
+}
+[1532591089.680][INFO]: Waiting for pending navigations...
+[1532591089.681][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.689][INFO]: Waiting for pending navigations...
+[1532591089.692][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.692][INFO]: RESPONSE GetElementText "-43.48"
+[1532591089.697][INFO]: COMMAND FindChildElements {
+   "id": "0.9776775155153155-3",
+   "using": "tag name",
+   "value": "td"
+}
+[1532591089.697][INFO]: Waiting for pending navigations...
+[1532591089.697][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.711][INFO]: Waiting for pending navigations...
+[1532591089.713][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.713][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.9776775155153155-24"
+}, {
+   "ELEMENT": "0.9776775155153155-25"
+}, {
+   "ELEMENT": "0.9776775155153155-26"
+}, {
+   "ELEMENT": "0.9776775155153155-27"
+}, {
+   "ELEMENT": "0.9776775155153155-28"
+}, {
+   "ELEMENT": "0.9776775155153155-29"
+}, {
+   "ELEMENT": "0.9776775155153155-30"
+}, {
+   "ELEMENT": "0.9776775155153155-31"
+}, {
+   "ELEMENT": "0.9776775155153155-32"
+}, {
+   "ELEMENT": "0.9776775155153155-33"
+} ]
+[1532591089.716][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-24"
+}
+[1532591089.716][INFO]: Waiting for pending navigations...
+[1532591089.717][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.735][INFO]: Waiting for pending navigations...
+[1532591089.737][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.737][INFO]: RESPONSE GetElementText ""
+[1532591089.739][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-25"
+}
+[1532591089.739][INFO]: Waiting for pending navigations...
+[1532591089.743][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.768][INFO]: Waiting for pending navigations...
+[1532591089.771][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.771][INFO]: RESPONSE GetElementText "Tata Steel"
+[1532591089.773][INFO]: COMMAND GetElementText {
+   "id": "0.9776775155153155-25"
+}
+[1532591089.773][INFO]: Waiting for pending navigations...
+[1532591089.777][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.793][INFO]: Waiting for pending navigations...
+[1532591089.795][INFO]: Done waiting for pending navigations. Status: ok
+[1532591089.795][INFO]: RESPONSE GetElementText "Tata Steel"
+[1532591089.798][INFO]: COMMAND DeleteAllCookies {
+
+}
+[1532591089.798][INFO]: Waiting for pending navigations...
+[1532591089.799][INFO]: Done waiting for pending navigations. Status: ok
+[1532591091.040][INFO]: Waiting for pending navigations...
+[1532591091.041][INFO]: Done waiting for pending navigations. Status: ok
+[1532591091.041][INFO]: RESPONSE DeleteAllCookies
+[1532591091.058][INFO]: COMMAND Quit {
+
+}
+[1532591091.171][INFO]: RESPONSE Quit
